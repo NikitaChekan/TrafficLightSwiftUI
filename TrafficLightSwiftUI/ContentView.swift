@@ -46,7 +46,24 @@ struct ContentView: View {
     }
     
     private func changeColorButtonDidTapped() {
-
+        if buttonTitle == "START" {
+            buttonTitle = "NEXT"
+        }
+        
+        switch changeColor {
+        case .red:
+            greenCircle = lightOff
+            redCircle = lightOn
+            changeColor = .yellow
+        case .yellow:
+            redCircle = lightOff
+            yellowCircle = lightOn
+            changeColor = .green
+        case .green:
+            yellowCircle = lightOff
+            greenCircle = lightOn
+            changeColor = .red
+        }
     }
 }
 
