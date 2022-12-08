@@ -11,13 +11,15 @@ struct ContentView: View {
     var body: some View {
         VStack {
             RedCircleView()
-            Spacer()
+                .padding()
             YellowCircleView()
-            Spacer()
+                .padding()
             GreenCircleView()
-            
+                .padding()
+            Spacer()
+            CustomButtonView()
+                .padding()
         }
-        .padding()
     }
 }
 

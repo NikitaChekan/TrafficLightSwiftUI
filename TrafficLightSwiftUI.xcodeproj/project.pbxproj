@@ -14,6 +14,7 @@
 		DAE2BE772941C7DA00CF76C7 /* RedCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2BE762941C7DA00CF76C7 /* RedCircleView.swift */; };
 		DAE2BE792941C7EB00CF76C7 /* YellowCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2BE782941C7EB00CF76C7 /* YellowCircleView.swift */; };
 		DAE2BE7B2941C7FE00CF76C7 /* GreenCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2BE7A2941C7FE00CF76C7 /* GreenCircleView.swift */; };
+		DAE2BE7D2941D18100CF76C7 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2BE7C2941D18100CF76C7 /* CustomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		DAE2BE762941C7DA00CF76C7 /* RedCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCircleView.swift; sourceTree = "<group>"; };
 		DAE2BE782941C7EB00CF76C7 /* YellowCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowCircleView.swift; sourceTree = "<group>"; };
 		DAE2BE7A2941C7FE00CF76C7 /* GreenCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenCircleView.swift; sourceTree = "<group>"; };
+		DAE2BE7C2941D18100CF76C7 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				DAE2BE762941C7DA00CF76C7 /* RedCircleView.swift */,
 				DAE2BE782941C7EB00CF76C7 /* YellowCircleView.swift */,
 				DAE2BE7A2941C7FE00CF76C7 /* GreenCircleView.swift */,
+				DAE2BE7C2941D18100CF76C7 /* CustomButtonView.swift */,
 				DAE2BE752941C76800CF76C7 /* Resources */,
 				DAE2BE6D2941C71100CF76C7 /* Preview Content */,
 			);
@@ -157,6 +160,7 @@
 				DAE2BE6A2941C70C00CF76C7 /* ContentView.swift in Sources */,
 				DAE2BE682941C70C00CF76C7 /* TrafficLightSwiftUIApp.swift in Sources */,
 				DAE2BE7B2941C7FE00CF76C7 /* GreenCircleView.swift in Sources */,
+				DAE2BE7D2941D18100CF76C7 /* CustomButtonView.swift in Sources */,
 				DAE2BE792941C7EB00CF76C7 /* YellowCircleView.swift in Sources */,
 				DAE2BE772941C7DA00CF76C7 /* RedCircleView.swift in Sources */,
 			);
