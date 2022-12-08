@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  TrafficLightSwiftUI
 //
-//  Created by jopootrivatel on 08.12.2022.
+//  Created by Nikita Chekan on 08.12.2022.
 //
 
 import SwiftUI
@@ -10,10 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            RedCircleView()
+            Spacer()
+            YellowCircleView()
+            Spacer()
+            GreenCircleView()
+            
         }
         .padding()
     }

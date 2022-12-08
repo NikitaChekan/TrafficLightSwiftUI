@@ -11,6 +11,9 @@
 		DAE2BE6A2941C70C00CF76C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2BE692941C70C00CF76C7 /* ContentView.swift */; };
 		DAE2BE6C2941C71100CF76C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE2BE6B2941C71100CF76C7 /* Assets.xcassets */; };
 		DAE2BE6F2941C71100CF76C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE2BE6E2941C71100CF76C7 /* Preview Assets.xcassets */; };
+		DAE2BE772941C7DA00CF76C7 /* RedCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2BE762941C7DA00CF76C7 /* RedCircleView.swift */; };
+		DAE2BE792941C7EB00CF76C7 /* YellowCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2BE782941C7EB00CF76C7 /* YellowCircleView.swift */; };
+		DAE2BE7B2941C7FE00CF76C7 /* GreenCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2BE7A2941C7FE00CF76C7 /* GreenCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		DAE2BE692941C70C00CF76C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DAE2BE6B2941C71100CF76C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAE2BE6E2941C71100CF76C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAE2BE762941C7DA00CF76C7 /* RedCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCircleView.swift; sourceTree = "<group>"; };
+		DAE2BE782941C7EB00CF76C7 /* YellowCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowCircleView.swift; sourceTree = "<group>"; };
+		DAE2BE7A2941C7FE00CF76C7 /* GreenCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			children = (
 				DAE2BE672941C70C00CF76C7 /* TrafficLightSwiftUIApp.swift */,
 				DAE2BE692941C70C00CF76C7 /* ContentView.swift */,
-				DAE2BE6B2941C71100CF76C7 /* Assets.xcassets */,
+				DAE2BE762941C7DA00CF76C7 /* RedCircleView.swift */,
+				DAE2BE782941C7EB00CF76C7 /* YellowCircleView.swift */,
+				DAE2BE7A2941C7FE00CF76C7 /* GreenCircleView.swift */,
+				DAE2BE752941C76800CF76C7 /* Resources */,
 				DAE2BE6D2941C71100CF76C7 /* Preview Content */,
 			);
 			path = TrafficLightSwiftUI;
@@ -65,6 +74,14 @@
 				DAE2BE6E2941C71100CF76C7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAE2BE752941C76800CF76C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DAE2BE6B2941C71100CF76C7 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +156,9 @@
 			files = (
 				DAE2BE6A2941C70C00CF76C7 /* ContentView.swift in Sources */,
 				DAE2BE682941C70C00CF76C7 /* TrafficLightSwiftUIApp.swift in Sources */,
+				DAE2BE7B2941C7FE00CF76C7 /* GreenCircleView.swift in Sources */,
+				DAE2BE792941C7EB00CF76C7 /* YellowCircleView.swift in Sources */,
+				DAE2BE772941C7DA00CF76C7 /* RedCircleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
