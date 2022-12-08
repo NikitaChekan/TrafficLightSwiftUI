@@ -8,21 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
-    private var buttonTitle = "START"
-    private let changeColor = ChangeColor.red
+    @State private var buttonTitle = "START"
+    @State private var changeColor = ChangeColor.red
+    
+    @State private var redCircle: CGFloat = 0.2
+    @State private var yellowCircle: CGFloat = 0.2
+    @State private var greenCircle: CGFloat = 0.2
     
     private let lightOn: CGFloat = 1
-    private let lightOff: CGFloat = 0.3
+    private let lightOff: CGFloat = 0.2
     
     var body: some View {
         ZStack {
             Color(.black)
                 .ignoresSafeArea()
             VStack {
-                RedCircleView()
-                YellowCircleView()
+                ColorCircleView(color: .red, alpha: redCircle)
+                ColorCircleView(color: .yellow, alpha: yellowCircle)
                     .padding()
-                GreenCircleView()
+                ColorCircleView(color: .green, alpha: greenCircle)
 
                 Spacer()
                 
@@ -42,20 +46,7 @@ struct ContentView: View {
     }
     
     private func changeColorButtonDidTapped() {
-//        switch changeColor {
-//        case .red:
-//            greenCircleView.alpha = lightOff
-//            redCircleView.alpha = lightOn
-//            changeColor = .yellow
-//        case .yellow:
-//            redCircleView.alpha = lightOff
-//            yellowCircleView.alpha = lightOn
-//            changeColor = .green
-//        case .green:
-//            yellowCircleView.alpha = lightOff
-//            greenCircleView.alpha = lightOn
-//            changeColor = .red
-//        }
+
     }
 }
 
