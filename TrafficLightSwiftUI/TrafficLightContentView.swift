@@ -33,6 +33,7 @@ struct TrafficLightContentView: View {
                 
                 Button(action: changeColorButtonDidTapped) {
                     Text(buttonTitle)
+                        .frame(width: 100, height: 40)
                         .font(.title)
                         .foregroundColor(.blue)
                         .fontWeight(.medium)
