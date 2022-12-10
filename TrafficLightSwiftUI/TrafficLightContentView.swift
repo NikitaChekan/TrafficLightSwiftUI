@@ -50,8 +50,8 @@ struct TrafficLightContentView: View {
     }
     
     private func changeColorButtonDidTapped() {
-        let lightOn: CGFloat = 1
-        let lightOff: CGFloat = 0.2
+        let lightOn = 1.0
+        let lightOff = 0.2
         
         if buttonTitle == "START" {
             buttonTitle = "NEXT"
