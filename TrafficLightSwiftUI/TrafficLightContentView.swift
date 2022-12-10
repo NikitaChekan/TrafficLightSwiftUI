@@ -28,21 +28,25 @@ struct TrafficLightContentView: View {
                     .padding()
                 Spacer()
                 
-                Button(action: changeColorButtonDidTapped) {
-                    Text(buttonTitle)
-                        .frame(width: 100, height: 40)
-                        .font(.title)
-                        .foregroundColor(.blue)
-                        .fontWeight(.medium)
-                }
-                .tint(.blue)
-                .buttonStyle(.bordered)
-                .buttonBorderShape(.capsule)
-                .controlSize(.large)
-                .overlay(Capsule().stroke(.white, lineWidth: 0.5))
+                customButton
             }
             .padding()
         }
+    }
+    
+    private var customButton: some View {
+        Button(action: changeColorButtonDidTapped) {
+            Text(buttonTitle)
+                .frame(width: 100, height: 40)
+                .font(.title)
+                .foregroundColor(.blue)
+                .fontWeight(.medium)
+        }
+        .tint(.blue)
+        .buttonStyle(.bordered)
+        .buttonBorderShape(.capsule)
+        .controlSize(.large)
+        .overlay(Capsule().stroke(.white, lineWidth: 0.5))
     }
     
     private func changeColorButtonDidTapped() {
