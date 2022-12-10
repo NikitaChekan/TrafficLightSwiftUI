@@ -15,9 +15,6 @@ struct TrafficLightContentView: View {
     @State private var yellowCircle: CGFloat = 0.2
     @State private var greenCircle: CGFloat = 0.2
     
-    private let lightOn: CGFloat = 1
-    private let lightOff: CGFloat = 0.2
-    
     var body: some View {
         ZStack {
             Color(.black)
@@ -49,6 +46,9 @@ struct TrafficLightContentView: View {
     }
     
     private func changeColorButtonDidTapped() {
+        let lightOn: CGFloat = 1
+        let lightOff: CGFloat = 0.2
+        
         if buttonTitle == "START" {
             buttonTitle = "NEXT"
         }
