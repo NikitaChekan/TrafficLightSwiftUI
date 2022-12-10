@@ -11,20 +11,20 @@ struct TrafficLightContentView: View {
     @State private var buttonTitle = "START"
     @State private var changeColor = ChangeColor.red
     
-    @State private var redCircle: CGFloat = 0.2
-    @State private var yellowCircle: CGFloat = 0.2
-    @State private var greenCircle: CGFloat = 0.2
+    @State private var redCircle = 0.2
+    @State private var yellowCircle = 0.2
+    @State private var greenCircle = 0.2
     
     var body: some View {
         ZStack {
             Color(.black)
                 .ignoresSafeArea()
             VStack {
-                ColorCircleView(color: .red, alpha: redCircle)
+                ColorCircleView(color: .red, opacity: redCircle)
                     .padding()
-                ColorCircleView(color: .yellow, alpha: yellowCircle)
+                ColorCircleView(color: .yellow, opacity: yellowCircle)
                     .padding()
-                ColorCircleView(color: .green, alpha: greenCircle)
+                ColorCircleView(color: .green, opacity: greenCircle)
                     .padding()
                 Spacer()
                 
